@@ -5,7 +5,7 @@ configuration, security, and troubleshooting for Nexora Technologies,
 a fictional company.
 
 **Project status:** In progress  
-**Completed:** Lab 01 - Basic LAN Connectivity  
+**Completed:** Lab 01-02  - Basic LAN Connectivity and Network Design
 **Environment:** Cisco Packet Tracer simulation
 
 ## Project Overview
@@ -34,6 +34,7 @@ troubleshooting, and lessons learned.
 
 | Device | Role | IP Address |
 |---|---|---|
+| NEX-R01 | Cisco 2911 router | Not configured |
 | NEX-SW01 | Cisco 2960 Layer 2 switch | Not configured |
 | NEX-PC01 | Workstation | 192.168.10.11/24 |
 | NEX-PC02 | Workstation | 192.168.10.12/24 |
@@ -48,7 +49,7 @@ The sequence may be adjusted as the project develops.
 | Lab | Topic | Status |
 |---|---|---|
 | 01 | [Basic LAN Connectivity](lab/01-basic-lan-connectivity.md) | Completed |
-| 02 | Network Design and IP Address Planning | Planned |
+| 02 | [Network Design and IP Address Planning](lab/02-network-design-and-ip-planning.md) | Completed |
 | 03 | Basic Switch and Router Configuration | Planned |
 | 04 | Departmental VLANs and Access Ports | Planned |
 | 05 | Trunking and Inter-VLAN Routing | Planned |
