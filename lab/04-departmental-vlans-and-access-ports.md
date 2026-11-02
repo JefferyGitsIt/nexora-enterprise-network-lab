@@ -188,17 +188,6 @@ On NEX-SW01:
 Accepted the default destination filename and confirmed [OK].
 Saved the Packet Tracer project using Ctrl + S.
 
-## Verification Summary
-
-| Test | Result |
-|---|---|
-| VLANs 10 through 60 created | Active |
-| PC01 to PC02 when both were in VLAN 10 | 4/4 replies |
-| PC01 to PC02 after moving PC02 to VLAN 20, retaining its old IP | 0/4 replies |
-| PC02 addressing corrected for Accounting | 192.168.20.12/24 |
-| PC03 assigned to HR | VLAN 10, Fa0/3 |
-| PC01 to PC03 within HR | 4/4 replies |
-| Switch configuration saved | [OK] |
 
 ## Lessons Learned
 
