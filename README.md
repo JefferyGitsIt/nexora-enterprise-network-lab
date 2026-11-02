@@ -35,7 +35,7 @@ troubleshooting, and lessons learned.
 | Device | Role | IP Address |
 |---|---|---|
 | NEX-R01 | Cisco 2911 router | 192.168.10.1/24|
-| NEX-SW01 | Cisco 2960 Layer 2 switch | 192.168.2/24 |
+| NEX-SW01 | Cisco 2960 Layer 2 switch | 192.168.10.2/24 |
 | NEX-PC01 | Workstation | 192.168.10.11/24 |
 | NEX-PC02 | Workstation | 192.168.10.12/24 |
 
