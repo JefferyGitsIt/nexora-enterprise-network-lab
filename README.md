@@ -5,7 +5,9 @@ configuration, security, and troubleshooting for Nexora Technologies,
 a fictional company.
 
 **Project status:** In progress  
-**Completed:** Lab 01-02  - Basic LAN Connectivity and Network Design
+
+**Completed:** Labs 01–03 - LAN Connectivity, Network Planning, and Secure Device Management
+
 **Environment:** Cisco Packet Tracer simulation
 
 ## Project Overview
