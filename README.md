@@ -6,7 +6,7 @@ a fictional company.
 
 **Project status:** In progress  
 
-**Completed:** Labs 01–03 - LAN Connectivity, Network Planning, and Secure Device Management
+**Completed:** Labs 01–04 - LAN Connectivity, Network Planning, Secure Management, and VLANs
 
 **Environment:** Cisco Packet Tracer simulation
 
@@ -39,10 +39,12 @@ troubleshooting, and lessons learned.
 | NEX-R01 | Cisco 2911 router | 192.168.10.1/24|
 | NEX-SW01 | Cisco 2960 Layer 2 switch | 192.168.10.2/24 |
 | NEX-PC01 | Workstation | 192.168.10.11/24 |
-| NEX-PC02 | Workstation | 192.168.10.12/24 |
+| NEX-PC02 | Accounting workstation - VLAN 20 | 192.168.20.12/24 |
+| NEX-PC03 | HR workstation - VLAN 10 | 192.168.10.13/24 |
 
-Both PCs connect to NEX-SW01 using copper straight-through cables.
-Connectivity has been verified in both directions with 0% packet loss.
+HR workstations NEX-PC01 and NEX-PC03 communicate within VLAN 10
+with 0% packet loss. NEX-PC02 is assigned to Accounting VLAN 20.
+Inter-VLAN routing is not yet configured.
 
 ## Lab Roadmap
 
@@ -53,7 +55,7 @@ The sequence may be adjusted as the project develops.
 | 01 | [Basic LAN Connectivity](lab/01-basic-lan-connectivity.md) | Completed |
 | 02 | [Network Design and IP Address Planning](lab/02-network-design-and-ip-planning.md) | Completed |
 | 03 | [Basic Device Configuration and Secure Management](lab/03-basic-device-configuration-and-secure-management.md) | Completed |
-| 04 | Departmental VLANs and Access Ports | Planned |
+| 04 | [Departmental VLANs and Access Ports](lab/04-departmental-vlans-and-access-ports.md) | Completed |
 | 05 | Trunking and Inter-VLAN Routing | Planned |
 | 06 | DHCP and Basic DNS Services | Planned |
 | 07 | Simulated ISP Connectivity and NAT/PAT | Planned |
